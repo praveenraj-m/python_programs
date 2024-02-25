@@ -40,3 +40,10 @@ It displays the current state of the word with underscores for unguessed letters
 The player has a limited number of attempts (6 in this case) to guess the word.<br>
 If the player guesses the word or runs out of attempts, the game ends.
 </details>
+
+<details>
+<summary> 6. Basic Website Scraper. </summary>
+Explanation:<br>
+The Python script uses the `requests` library to fetch the HTML content of 'https://www.google.com' and `BeautifulSoup` to parse the HTML.<br>
+It then extracts and prints the `href` attribute of all links (`a` tags) from the Google homepage.
+</details>

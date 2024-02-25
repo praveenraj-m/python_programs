@@ -31,3 +31,12 @@ It sends an HTTP request using the `requests` library and processes the JSON res
 If the request is successful (status code 200), it extracts and displays the current temperature and weather description.<br>
 In case of an error, it prints an error message.
 </details>
+
+<details>
+<summary> 5. Hangman Game. </summary>
+Explanation:<br>
+The program selects a random word from a predefined list, and the player needs to guess the word by inputting letters.<br>
+It displays the current state of the word with underscores for unguessed letters and updates it as the player guesses correctly.<br>
+The player has a limited number of attempts (6 in this case) to guess the word.<br>
+If the player guesses the word or runs out of attempts, the game ends.
+</details>

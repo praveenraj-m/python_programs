@@ -55,3 +55,9 @@ The Python program demonstrates basic file handling operations - writing content
 It writes a sample line to a file, then reads and prints the content of the file.
 </details>
 
+<details>
+<summary> 8. Program that Accepts a Sentence and Calculates the Number of Letters and Digits. </summary>
+Explanation:<br>
+The Python program defines a function `count_letters_digits` that takes a sentence as input and counts the number of letters and digits in it.<br>
+It then takes user input, calls the function, and prints the counts of letters and digits in the entered sentence.
+</details>

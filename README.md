@@ -47,3 +47,11 @@ Explanation:<br>
 The Python script uses the `requests` library to fetch the HTML content of 'https://www.google.com' and `BeautifulSoup` to parse the HTML.<br>
 It then extracts and prints the `href` attribute of all links (`a` tags) from the Google homepage.
 </details>
+
+<details>
+<summary> 7. Basic File Handling. </summary>
+Explanation:<br>
+The Python program demonstrates basic file handling operations - writing content to a file and reading content from a file.<br>
+It writes a sample line to a file, then reads and prints the content of the file.
+</details>
+

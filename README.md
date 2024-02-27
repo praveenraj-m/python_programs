@@ -61,3 +61,10 @@ Explanation:<br>
 The Python program defines a function `count_letters_digits` that takes a sentence as input and counts the number of letters and digits in it.<br>
 It then takes user input, calls the function, and prints the counts of letters and digits in the entered sentence.
 </details>
+
+<details>
+<summary> 9. Currency Converter. </summary>
+Explanation:<br>
+The Python script defines a function `convert_currency` that takes an amount, source currency, and target currency, and returns the converted amount.<br>
+An example usage is provided, converting 100 USD to INR along with other predefined conversion rates.
+</details>

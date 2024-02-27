@@ -68,3 +68,10 @@ Explanation:<br>
 The Python script defines a function `convert_currency` that takes an amount, source currency, and target currency, and returns the converted amount.<br>
 An example usage is provided, converting 100 USD to INR along with other predefined conversion rates.
 </details>
+
+<details>
+<summary>10. Random Password Generator.</summary>
+Explanation:<br>
+The Python script defines a function `generate_random_password` that generates a random password of a specified length using letters, digits, and punctuation characters.<br>
+The password is then printed.
+</details>

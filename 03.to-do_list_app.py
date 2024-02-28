@@ -33,7 +33,10 @@ def todo_list_app():
 
         if choice == '1':
             task = input("Enter a new task: ")
-            add_task(tasks, task)
+            if task.strip() != "":
+                add_task(tasks, task)
+            else:
+                print("you have entered nothing")
         elif choice == '2':
             view_tasks(tasks)
         elif choice == '3':

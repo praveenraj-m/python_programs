@@ -1,15 +1,26 @@
 import requests
 from bs4 import BeautifulSoup
 
-# Basic Website Scraper
-def website_scraper(url):
+# Specify the URL of the website to be scraped
+url = "https://www.google.com"
+
+try:
+    # Send an HTTP GET request to the specified URL
     response = requests.get(url)
+
+    # Parse the HTML content of the response using BeautifulSoup
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Example: Extracting titles from an HTML page
-    titles = soup.find_all('h2')
-    for title in titles:
-        print(title.text)
+    # Find all anchor elements in the HTML
+    links = soup.find_all('a')
 
-# Run the Website Scraper
-website_scraper('https://example.com')
+    # Print the "href" attributes of the anchor elements
+    for link in links:
+        print(link.get('href'))
+
+except requests.exceptions.RequestException as e:
+    # Handle request exceptions (e.g., connection issues)
+    print(f"Error: {e}")
+except Exception as e:
+    # Handle other exceptions (e.g., parsing errors)
+    print(f"Error: {e}")

@@ -72,11 +72,19 @@ The Python program defines a function `count_letters_digits` that takes a senten
 It then takes user input, calls the function, and prints the counts of letters and digits in the entered sentence.
 </details>
 
+
 <details>
-<summary> 9. Currency Converter. </summary>
+<summary>9. Currency Converter using ExchangeRate-API </summary>
 Explanation:<br>
-The Python script defines a function `convert_currency` that takes an amount, source currency, and target currency, and returns the converted amount.<br>
-An example usage is provided, converting 100 USD to INR along with other predefined conversion rates.
+The Python script defines a function convert_currency that takes an amount, source currency, and target currency, and returns the converted amount.<br>
+Usage:<br>
+Enter the amount you want to convert.<br>
+Choose the source currency (from_currency).<br>
+Choose the target currency (to_currency).<br>
+View the converted amount.<br>
+API Information:<br>
+ExchangeRate-API Documentation<br>
+Terms of Use
 </details>
 
 <details>

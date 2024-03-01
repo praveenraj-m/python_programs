@@ -49,10 +49,11 @@ It then extracts and prints the `href` attribute of all links (`a` tags) from th
 </details>
 
 <details>
-<summary> 7. Basic File Handling. </summary>
+<summary> 7. File Handling with Different Modes </summary>
 Explanation:<br>
 The Python program demonstrates basic file handling operations - writing content to a file and reading content from a file.<br>
 It writes a sample line to a file, then reads and prints the content of the file.<br>
+  
 1. &nbsp'r+' (Read and Write):<br>
   Opens the file for both reading and writing.<br>
   The file pointer is placed at the beginning of the file.<br>
@@ -62,7 +63,26 @@ It writes a sample line to a file, then reads and prints the content of the file
   If the file already exists, it truncates the file to zero length.<br>
   The file pointer is placed at the beginning of the file.<br>
   It allows you to both write new content and read the file.<br>
-  If the file does not exist, it creates a new file.
+  If the file does not exist, it creates a new file.<br>
+
+
+Explanation:<br>
+The Python script showcases various file modes, including 'r', 'w', 'r+', 'w+', and 'a', each serving different purposes in file handling.<br>
+
+1. 'r' mode (Read): Opens the file for reading. The content is read using `file.read()`.<br>
+
+2. 'w' mode (Write): Opens the file for writing. A new file is created or an existing file is truncated. Content is written using `file.write()`.<br>
+
+3. 'r+' mode (Read and Write): Opens the file for both reading and writing. The script reads the content, appends new content, and reads the updated content using `file.read()` and `file.write()`.<br>
+
+4. 'w+' mode (Write and Read): Opens the file for both writing and reading. A new file is created or an existing file is truncated. Content is written and read using `file.write()` and `file.read()`.<br>
+
+5. 'a' mode (Append): Opens the file for appending. A new file is created if it doesn't exist. Content is appended using `file.write()`.<br>
+
+The script concludes by reading the final content of the file using 'r' mode.<br>
+
+</details>
+
 </details>
 
 <details>

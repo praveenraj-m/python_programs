@@ -52,7 +52,17 @@ It then extracts and prints the `href` attribute of all links (`a` tags) from th
 <summary> 7. Basic File Handling. </summary>
 Explanation:<br>
 The Python program demonstrates basic file handling operations - writing content to a file and reading content from a file.<br>
-It writes a sample line to a file, then reads and prints the content of the file.
+It writes a sample line to a file, then reads and prints the content of the file.<br>
+1. &nbsp'r+' (Read and Write):<br>
+  Opens the file for both reading and writing.<br>
+  The file pointer is placed at the beginning of the file.<br>
+  It allows you to read the existing content and write new content to the file.<br>
+2. &nbsp'w+' (Write and Read):<br>
+  Opens the file for both writing and reading.<br>
+  If the file already exists, it truncates the file to zero length.<br>
+  The file pointer is placed at the beginning of the file.<br>
+  It allows you to both write new content and read the file.<br>
+  If the file does not exist, it creates a new file.
 </details>
 
 <details>
